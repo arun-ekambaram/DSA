@@ -196,20 +196,22 @@ public class Patterns{
     public static void pattern13(int n){
         for(int i=0;i<n;i++){
             for(int j=1;j<=i+1;j++){
-                System.out.print(j);
+                System.out.print(j+" ");
             }
 
-            for(int j=0;j<=n-2*i+1;j++){
+            for(int j=0;j<=n*3-4*i;j++){
                 System.out.print(" ");
             }
 
-            for(int j =0;j<=i;j++){
-                System.out.print(j+1);
+            for(int j =i+1;j>0;j--){
+                System.out.print( j+" ");
             }
             System.out.println("");
 
         }
-    }
+
+        }
+    
 
    
 
@@ -217,7 +219,7 @@ public class Patterns{
 
     public static void main(String[] args){
         Patterns pattern = new Patterns();
-        pattern.pattern13(4);
+        pattern.pattern13(5);
 
     }
 }
