@@ -28,15 +28,6 @@ public static void main(String[] args){
     
     System.out.println(obj.countdigits(6234));
     
-    // Scanner sc=  new Scanner(System.in);
-    // int N;
-    // N = sc.nextInt();
-    // sc.close();
-
-
-
-
-
-
+    
 }
 }
